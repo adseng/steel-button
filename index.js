@@ -21,7 +21,6 @@
         return (x, y, width, height, i) => {
           const xRatio = width / x || 0;
           const yRatio = height / y || 0;
-          console.log(i);
           const diff = i + 1;
           const gradient = $.createLinearGradient(
             ((yRatio * (w / 2)) / 8) * -diff * 2,
